@@ -1,0 +1,2 @@
+队列管理器状态变为 status not avaliable 时，切换到root用户执行ipcs查看是否有mqm的共享内存，需要存在时需要执行ipcrm清理掉mqm的共享内存
+此种问题出现的原因：野蛮停机造成共享内存没有清理
